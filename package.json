@@ -4,7 +4,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "dev": "tsx watch src/http/server.ts"
+    "dev": "tsx watch src/http/server.ts",
+    "build": "tsup-node",
+    "start": "tsx watch dist/http/server.mjs"
   },
   "keywords": [],
   "author": "",
@@ -32,6 +34,7 @@
     "fastify-plugin": "^5.0.1",
     "fastify-type-provider-zod": "^4.0.2",
     "postgres": "^3.4.5",
+    "tsup": "^8.4.0",
     "ulid": "^2.3.0",
     "zod": "^3.24.2"
   }

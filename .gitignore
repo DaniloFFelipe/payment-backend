@@ -10,7 +10,7 @@
 
 # deps
 node_modules/
-
+dist.zip
 # env
 .env
 .env.production
